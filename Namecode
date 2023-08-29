@@ -1,0 +1,6 @@
+  System.out.println("Hello");
+  String fullName ="Glorius King", space=" ";
+  int positionSName =fullName.indexOf( space)+1;    
+  System.out.println(fullName.substring(0));
+  System.out.println("your First name:"+fullName.substring(0,positionSName));  
+  System.out.println("your Second name:"+fullName.substring(positionSName));
