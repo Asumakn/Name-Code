@@ -1,0 +1,12 @@
+
+    String fName="luke" , lName ="nwantoly",pSyl="ay",pfName,plName;//declaring variables for name
+    String fLetter1, fLetter2,plNameU,pfNameU,plfLetter,pffLetter; //declaring variables for name 
+    fLetter1 = fName.substring(0,1); // Separating the first letter from the rest of the first name 
+    fLetter2 = lName.substring(0,1); // Separating the first letter from the rest of the last name  
+    pfName = fName.substring(1)+fLetter1+pSyl; // adding pig Latin syllable to the first name
+    plName = lName.substring(1)+fLetter2+pSyl; // adding pig Latin syllable to the last name
+    pffLetter = pfName.substring(0,1);  // Separating the first letter from the rest of the pig Latin first name
+    plfLetter = plName.substring(0,1); // Separating the first letter from the rest of the pig Latin last name 
+    pfNameU = pffLetter.toUpperCase()+pfName.substring(1); //Combining all the element of the pig latin first name
+    plNameU = plfLetter.toUpperCase()+plName.substring(1); //Combining all the element of the pig latin last name
+    System.out.println(pfNameU+" "+plNameU); //printing the full pig latin last name  
