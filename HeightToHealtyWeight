@@ -1,0 +1,9 @@
+
+    int height,bHeight,sHeight,bWeight,sWeight,feets,inches,tHeight;
+    feets=5;
+    inches=10;
+    tHeight= feets*12+inches;
+    bHeight = 60;
+    sHeight = tHeight-bHeight;
+    bWeight=110;
+    sWeight=5*sHeight;
