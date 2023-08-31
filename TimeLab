@@ -1,0 +1,5 @@
+   int totalTime = 50391,hours,minutes,seconds;
+   hours = totalTime/3600;
+   minutes = (totalTime-(hours*3600))/60;
+   seconds = (totalTime-((hours*3600)+(minutes*60)));
+   System.out.println("The time is "+hours+":"+minutes+":"+seconds);
