@@ -1,0 +1,8 @@
+ 
+    String Oline="I really hate you.", Hate="hate",Mline,space=" ";
+    int pOfHate,pOfSpace;
+    pOfHate = Oline.indexOf(Hate);
+    pOfSpace = Oline.lastIndexOf(space)+1;
+    Mline = Oline.substring(0,pOfHate)+"love "+Oline.substring(pOfSpace);
+    System.out.println("The original line is : "+Oline+" Which has been rephrased to: "+Mline);
+    
